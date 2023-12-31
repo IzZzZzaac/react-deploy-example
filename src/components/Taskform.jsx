@@ -19,8 +19,9 @@ function Taskform() {
 
     return (
       <div className='max-w-md mx-auto'>
+        <h1 className='text-2xl font-bold text-white mb-3'>Creado por Isaac Montilla</h1>
         <form onSubmit={handleSubmit} className="bg-slate-700 p-10 mb-4">
-          <h1 className='text-2xl font-bold text-white mb-3'>Crea Tarea</h1>
+          <h2 className='text-2xl font-bold text-white mb-3'>Crea Tarea</h2>
           <input
             className='bg-slate-300 p-3 w-full mb-2  placeholder-black'
             autoFocus
